@@ -1,0 +1,52 @@
+<!--  how to use css in python_ flask-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--  Load CSS in Flask with html-->
+    <link rel="stylesheet" href='/staticFiles/main.css' />
+ 
+<!--  Load JavaScript in Flask with html-->
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #dc20ad;
+    color: white;
+  }
+  </style>
+
+<div class="topnav">
+<a href="/">Home</a>
+<a class="active" href="groups">My Groups</a>
+<a href="help">Help</a>
+<a href="about">About</a>
+</div> 
+ 
+  </head>
+  <body>
+    <h1>Image Page</h1>
+    <img src="/staticFiles/testPic.png" alt="Italian Trulli">
+  </body>
+</html>
